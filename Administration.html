@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimpleHome - Home Automation</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+   </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><strong><a href="index.html"> SimpleHome </a></strong>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active"> </li>
+             <li class="nav-item"> </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle Profiles" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				   <a class="dropdown-item" href="index.html">Home</a>
+                   <a class="dropdown-item" href="Profiles.html">Profiles</a>
+                   <a class="dropdown-item" href="Support.html">Support</a>
+				   <a class="dropdown-item" href="Schedule.html">Schedule</a>
+				   <a class="dropdown-item" href="Administration.html">Administration</a>
+                </div>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+             </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+       </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+      <h1 class="display-4"><strong>SimpleHome</strong></h1>
+      <p class="lead">Welcome to your SimpleHome. Your one stop for your home automation needs.&nbsp; </p>
+      <hr class="my-4">
+      <p>Welcome to SimpleHome Administration. This page will allow you to upload floor plans, configure schedules, and configure your devices.&nbsp; </p>
+      <p class="lead">
+       </p>
+    </div>
+       <div class="row">
+          <div class="col-md-4">
+             <div class="card">
+                <img class="card-img-top" src="images/Floorplan.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <h4 class="card-title">Floor Plan</h4>
+                   <p class="card-text">Upload floor plan here. This will allow zones and devices to be configured.</p>
+                   <br><br>
+                   <div class="input-group">
+  					<div class="input-group-prepend">
+    					<span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+  					</div>
+  					<div class="custom-file">
+    					<input type="file" class="custom-file-input" id="inputGroupFile01"
+      						aria-describedby="inputGroupFileAddon01">
+    					<label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  					</div>
+				   </div>
+                </div>
+             </div>
+          </div>
+         <div class="card-body">
+                   <h5 class="card-title">Devices</h5>
+                   <h6 class="card-subtitle mb-2 text-muted">Select device type from list to begin configuration.</h6>
+				   <div class="row text-center">
+          			<div class="col-lg-6 offset-lg-3">
+						<a class="nav-link dropdown-toggle Profiles" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Devices</a>
+                		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   			<a class="dropdown-item" href="">Cameras</a>
+                   			<a class="dropdown-item" href="">Doorbells</a>
+				   			<a class="dropdown-item" href="">Alarms</a>
+				   			<a class="dropdown-item" href="">Lights</a>
+				   			<a class="dropdown-item" href="">Plugs</a>
+							<a class="dropdown-item" href="">TV</a>
+							<a class="dropdown-item" href="">Sensors</a>
+                </div>
+             </li>
+          </div>
+       </div>
+         </div>		   
+        <div class="span12">
+	    <div class="card-body">
+            <h4 class="card-title">Schedule</h4>
+            <p class="card-text">Set Automation schedules here.</p>
+    		<table class="table-condensed table-bordered table-striped">
+                <thead>
+                    <tr>
+                      <th colspan="7">
+                        <span class="btn-group">
+                            <a class="btn"><i class="icon-chevron-left"></i></a>
+                        	<a class="btn active">February 2012</a>
+                        	<a class="btn"><i class="icon-chevron-right"></i></a>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                        <th>Su</th>
+                        <th>Mo</th>
+                        <th>Tu</th>
+                        <th>We</th>
+                        <th>Th</th>
+                        <th>Fr</th>
+                        <th>Sa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="muted">29</td>
+                        <td class="muted">30</td>
+                        <td class="muted">31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td class="btn-primary"><strong>20</strong></td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td class="muted">1</td>
+                        <td class="muted">2</td>
+                        <td class="muted">3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</div>
+</div>
+		</div>   
+       <hr>
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+            <h4>SimpleHome</h4>
+            <p>Copyright &copy; 2019 &middot; All Rights Reserved &middot; <a href="index.html" >My Website</a></p>
+         </div>
+       </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
